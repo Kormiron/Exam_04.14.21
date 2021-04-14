@@ -34,6 +34,7 @@ void TestDiv() {
     assert(Div(6, 6) == 1);
     assert(Div(-12, -6) == 2);
     assert(Div(0, 3) == 0);
+    assert(Div(0, 0) == NULL);
     assert(Div(3, -3) == -1);
     cout << "Test Div passed" << endl;
 }

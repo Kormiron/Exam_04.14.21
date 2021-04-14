@@ -23,8 +23,8 @@ int Mul(int x, int y)
 int Div(int x, int y)
 {
     if(x != 0 && y == 0 || x == 0 && y == 0){
-        cout << "ERROR: --UNDEFINED-- " << endl;
-        return 0;
+        int result = NULL;
+        return result;
     }
     else
     {
