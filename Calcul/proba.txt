@@ -1,0 +1,35 @@
+if (y == NULL && amp == NULL || y == NULL) {
+        cout << x << endl;
+        FinalResult << x;
+        FinalResult.close();
+    }
+    else {
+        switch (p)
+        {
+        case 1:
+            r = Sum(x, y);
+            FinalResult << r;
+            FinalResult.close();
+            break;
+        case 2:
+            r = Del(x, y);
+            FinalResult << r;
+            FinalResult.close();
+            break;
+        case 3:
+            r = Mul(x, y);
+            FinalResult << r;
+            FinalResult.close();
+            break;
+        case 4:
+            r = Div(x, y);
+            FinalResult << r;
+            FinalResult.close();
+            break;
+        default:
+            break;
+        }
+    }
+
+
+

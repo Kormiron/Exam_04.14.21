@@ -25,17 +25,17 @@ int main()
     setlocale(LC_ALL, "");
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    
-    ifstream InputFile("input.txt");
-    ofstream FinalResult("text1.txt");
 
-    int x, y, r,p;
+    ifstream InputFile("input.txt");
+    ofstream FinalResult("output.txt");
+
+    int x, y, r, p;
     char op[10], amp[10];
 
     InputFile >> x >> op >> y >> amp;
 
     p = Operator(*op, *amp);
-
+    
     switch (p)
     {
     case 1:
@@ -61,7 +61,6 @@ int main()
     default:
         break;
     }
-
 
     cout << "----------------------" << endl;
     TestSum();

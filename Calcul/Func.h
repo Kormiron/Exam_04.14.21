@@ -37,19 +37,19 @@ int Div(int x, int y)
 int Operator(char a,char b) 
 {
     int p;
-    if (a == '+' && b == '=') {
+    if (a == '+' && b == '=' || a == '+') {
         p = 1;
         return p;
     }
-    if (a == '-' && b == '=') {
+    if (a == '-' && b == '=' || a == '-') {
         p = 2;
         return p;
     }
-    if (a == '*' && b == '=') {
+    if (a == '*' && b == '=' || a == '*') {
         p = 3;
         return p;
     }
-    if (a == '/' && b == '=') {
+    if (a == '/' && b == '=' || a == '/') {
         p = 4;
         return p;
     }
